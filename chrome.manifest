@@ -1,0 +1,12 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+skin    prpl-innovativa     classic/1.0 chrome/skin/
+locale	prpl-innovativa	en-US		chrome/locale/en-US/
+
+component {6e3a5d40-afce-11e4-ab27-0800200c9a66} components/innovativa.js
+contract @mozilla.org/chat/innovativa;1 {6e3a5d40-afce-11e4-ab27-0800200c9a66}
+category im-protocol-plugin prpl-innovativa @mozilla.org/chat/innovativa;1
+
+resource prpl-innovativa modules/
